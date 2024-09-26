@@ -79,7 +79,7 @@ const GamePlay = () => {
           <p style={{ fontWeight: "bolder", fontSize: "20px" }}>
             How to play the DICE GAME!{" "}
           </p>
-          <p>
+          <p style={{ fontSize: "20px" }}>
             <ul>
               <li>Select any number of your choice from 1 - 6</li>
               <li>Click on Dice Image</li>
@@ -101,7 +101,8 @@ export default GamePlay;
 // Styled Button Component with transition effects
 const StyledButton = styled.button`
   width: 15rem;
-  padding: 10px;
+  font-size: 1.5rem;
+  padding: 15px;
   background: black;
   color: white;
   border: none;
